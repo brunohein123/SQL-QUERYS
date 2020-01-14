@@ -19,7 +19,7 @@ GROUP BY ColunaUm
 ORDER BY ColunaUm
 
 
---Fazendo a média da coluna dois, agrupando pela coluna um e restringindo a média pelo valor = HelloDATABASE
+--Fazendo a mÃ©dia da coluna dois, agrupando pela coluna um e restringindo a mÃ©dia pelo valor = HelloDATABASE
 
 SELECT ColunaUm, AVG(ColunaDois) AS "Media"
 FROM Tabela
