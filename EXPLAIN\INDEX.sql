@@ -4,6 +4,9 @@ ON tabela(
     ColunaDois desc
 );
 
+EXPLAIN SELECT * 
+FROM tabela;
+
 SHOW INDEX FROM tabela;
 
 ALTER TABLE tabela
