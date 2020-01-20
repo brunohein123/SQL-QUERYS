@@ -1,0 +1,8 @@
+SELECT culuna, CEILING(coluna * valor)
+FROM tabela;
+SELECT PI();
+SELECT POW(4,4);
+SELECT SQRT(404);
+SELECT SIN(PI());
+SELECT HEX(404);
+
