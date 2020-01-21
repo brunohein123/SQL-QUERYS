@@ -2,7 +2,7 @@ DELIMITER $$
 CREATE FUNCTION soma (valorUm INT, valorDois INT)
 RETURNS INT
 BEGIN
-	RETURN valorUm + valorDois;
+    RETURN valorUm + valorDois;
 END$$
 
 DELIMITER ;
@@ -12,7 +12,7 @@ DELIMITER $$
 
 CREATE PROCEDURE buscaAlgo (nome varchar(50))
 BEGIN
-	SELECT * 
+    SELECT * 
     FROM tabelaNome AS Resultado
     WHERE nome LIKE('_runo') AND listaDeNomes LIKE(nome);
     SELECT "Busca realizada com sucesso";
